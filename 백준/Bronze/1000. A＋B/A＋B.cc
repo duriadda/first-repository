@@ -1,12 +1,11 @@
 #include <stdio.h>
 
-int main(){
-    
-    int A, B;
+int main()
+{
+    int a, b, result;
 
-    scanf("%d %d", &A, &B);
+    scanf("%d %d", &a, &b);
+    result = a + b;
 
-    printf("%d\n", A + B);
-
-    return 0;
+    printf("%d", result);
 }
